@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Concrete Diaz | Concrete, Stamped Patios &amp; Custom Gates in El Paso, TX</title>
+<meta name="description" content="Stamped and decorative concrete, driveways, patios, block and stone walls, and custom steel and wood gates across El Paso and southern New Mexico. Family run. Free estimate, financing available. Text or call (915) 242-3657.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Concrete Diaz, home">
+      <img class="brand-mark" src="assets/logo-mark.png" width="872" height="478" alt="">
+      <span class="brand-text">
+        <strong>Concrete Diaz</strong>
+        <em data-en="Concrete &amp; backyard hardscape" data-es="Concreto y hardscape">Concrete &amp; backyard hardscape</em>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main">
+      <a href="#work"      data-en="Work"        data-es="Trabajos">Work</a>
+      <a href="#services"  data-en="What We Build" data-es="Lo Que Hacemos">What We Build</a>
+      <a href="#how"       data-en="How We Pour"  data-es="Cómo Trabajamos">How We Pour</a>
+      <a href="#financing" data-en="Financing"    data-es="Financiamiento">Financing</a>
+      <a href="#area"      data-en="Area"         data-es="Área">Area</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Cambiar a español">
+        <span class="lang-on">EN</span><span class="lang-off">ES</span>
+      </button>
+      <a class="btn btn-call" href="#quote">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM15 3v4h4"/><path d="M9 12h6M9 16h4"/></svg>
+        <span data-en="Get a free quote" data-es="Pide una cotización">Get a free quote</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="hero-brand">
+        <img class="hero-brand-mark" src="assets/logo-mark.png" width="872" height="478" alt="">
+        <p class="hero-brand-name">Concrete Diaz</p>
+        <p class="hero-brand-tag" data-en="Concrete &amp; backyard hardscape · El Paso"
+                                  data-es="Concreto y hardscape · El Paso">Concrete &amp; backyard hardscape · El Paso</p>
+      </div>
+
+      <p class="hero-sub"
+         data-en="Stamped patios, driveways, block and stone walls, and custom steel gates across El Paso and southern New Mexico. Family run, financing available, and a free estimate on every job."
+         data-es="Patios estampados, entradas, muros de block y piedra, y portones de acero a la medida por todo El Paso y el sur de Nuevo México. Negocio familiar, con financiamiento y estimado gratis en cada trabajo.">
+         Stamped patios, driveways, block and stone walls, and custom steel gates across El Paso and southern New Mexico. Family run, financing available, and a free estimate on every job.</p>
+    </div>
+
+    <!-- Lead capture card -->
+    <div class="quote-card" id="quote">
+      <div class="quote-head">
+        <h2 data-en="Get a free quote" data-es="Pide una cotización gratis">Get a free quote</h2>
+        <p data-en="Takes about a minute. Tell us the project and we bring you a real number."
+           data-es="Toma como un minuto. Cuéntanos del proyecto y te damos un número real.">Takes about a minute. Tell us the project and we bring you a real number.</p>
+      </div>
+
+      <a class="btn btn-primary btn-block quote-open" href="#quote"
+         data-en="Start my quote" data-es="Comenzar mi cotización">Start my quote</a>
+
+      <form id="quoteForm" novalidate>
+        <div class="field">
+          <label for="qName" data-en="Your name" data-es="Tu nombre">Your name</label>
+          <input id="qName" name="name" type="text" autocomplete="name" required>
+          <span class="err" data-en="Please enter your name" data-es="Por favor escribe tu nombre">Please enter your name</span>
+        </div>
+
+        <div class="field">
+          <label for="qPhone" data-en="Phone number" data-es="Número de teléfono">Phone number</label>
+          <input id="qPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(915) 000-0000" required>
+          <span class="err" data-en="Please enter a valid phone number" data-es="Escribe un número de teléfono válido">Please enter a valid phone number</span>
+        </div>
+
+        <div class="field">
+          <label for="qProject" data-en="What do you need?" data-es="¿Qué necesitas?">What do you need?</label>
+          <select id="qProject" name="project" required>
+            <option value="" data-en="Select one…" data-es="Selecciona una…">Select one…</option>
+            <option value="driveway"  data-en="Driveway or approach"        data-es="Entrada o acceso">Driveway or approach</option>
+            <option value="patio"     data-en="Patio or slab"               data-es="Patio o losa">Patio or slab</option>
+            <option value="stamped"   data-en="Stamped or decorative concrete" data-es="Concreto estampado o decorativo">Stamped or decorative concrete</option>
+            <option value="foundation" data-en="Foundation or footings"      data-es="Cimiento o zapatas">Foundation or footings</option>
+            <option value="walkway"   data-en="Sidewalk or steps"           data-es="Banqueta o escalones">Sidewalk or steps</option>
+            <option value="block"     data-en="Block or retaining wall"      data-es="Muro de block o de contención">Block or retaining wall</option>
+            <option value="stone"     data-en="Stone veneer"                data-es="Enchape de piedra">Stone veneer</option>
+            <option value="gate"      data-en="Custom gate or fence"         data-es="Portón o cerca a la medida">Custom gate or fence</option>
+            <option value="pergola"   data-en="Pergola or shade"             data-es="Pérgola o sombra">Pergola or shade</option>
+            <option value="turf"      data-en="Artificial turf"              data-es="Pasto artificial">Artificial turf</option>
+            <option value="tearout"   data-en="Tear out and replace"         data-es="Demoler y reemplazar">Tear out and replace</option>
+            <option value="other"     data-en="Something else"               data-es="Otra cosa">Something else</option>
+          </select>
+          <span class="err" data-en="Please choose an option" data-es="Elige una opción">Please choose an option</span>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="qSize" data-en="Rough size" data-es="Tamaño aprox.">Rough size</label>
+            <select id="qSize" name="size">
+              <option value=""       data-en="Select…"              data-es="Selecciona…">Select…</option>
+              <option value="small"  data-en="Walkway or steps"     data-es="Andador o escalones">Walkway or steps</option>
+              <option value="1car"   data-en="One car / small pad"  data-es="Un auto / losa chica">One car / small pad</option>
+              <option value="2car"   data-en="Two car / patio"      data-es="Dos autos / patio">Two car / patio</option>
+              <option value="large"  data-en="Large / full yard"    data-es="Grande / patio completo">Large / full yard</option>
+              <option value="unsure" data-en="Not sure yet"         data-es="Todavía no sé">Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="qFinance" data-en="Financing?" data-es="¿Financiamiento?">Financing?</label>
+            <select id="qFinance" name="finance">
+              <option value=""        data-en="Select…"           data-es="Selecciona…">Select…</option>
+              <option value="yes"     data-en="Yes, tell me"       data-es="Sí, cuéntame">Yes, tell me</option>
+              <option value="maybe"   data-en="Maybe"              data-es="Tal vez">Maybe</option>
+              <option value="cash"    data-en="Paying outright"    data-es="Pago de contado">Paying outright</option>
+              <option value="unsure"  data-en="Not sure"           data-es="No estoy seguro">Not sure</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field field-inline">
+          <input id="qSpanish" name="spanish" type="checkbox">
+          <label for="qSpanish" data-en="Contact me in Spanish" data-es="Contáctenme en español">Contact me in Spanish</label>
+        </div>
+
+        <button class="btn btn-primary btn-block" type="submit"
+                data-en="Get my free quote" data-es="Pedir mi cotización gratis">Get my free quote</button>
+
+        <p class="form-foot">
+          <span data-en="Or text us:" data-es="O envíanos un texto:">Or text us:</span>
+          <a href="sms:+19152423657">(915) 242-3657</a>
+        </p>
+      </form>
+
+      <div class="quote-success" id="quoteSuccess" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>
+        <h3 data-en="Thanks, we will be in touch." data-es="Gracias, te contactaremos.">Thanks, we will be in touch.</h3>
+        <p data-en="We will text or call to set a time to come look and measure. For a faster answer, text (915) 242-3657."
+           data-es="Te mandamos un texto o te llamamos para agendar una visita y medir. Para una respuesta más rápida, envía un texto al (915) 242-3657.">We will text or call to set a time to come look and measure. For a faster answer, text (915) 242-3657.</p>
+        <p class="demo-note" data-en="Demo only. This form is not connected to email yet."
+                             data-es="Solo demostración. Este formulario aún no está conectado.">Demo only. This form is not connected to email yet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TRUST BAR ══ -->
+<section class="trustbar" aria-label="Why homeowners call Concrete Diaz">
+  <div class="wrap trust-grid">
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 3 6v6c0 5 3.8 9.2 9 10 5.2-.8 9-5 9-10V6l-9-4Z"/><path d="m9 12 2 2 4-4"/></svg>
+      <p><strong data-en="BBB Accredited" data-es="Acreditado por BBB">BBB Accredited</strong>
+         <span data-en="A real, checked out El Paso business" data-es="Un negocio de El Paso, verificado">A real, checked out El Paso business</span></p>
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 10h18M7 15h4"/></svg>
+      <p><strong data-en="Financing available" data-es="Financiamiento disponible">Financing available</strong>
+         <span data-en="Monthly plans, quick approval" data-es="Planes mensuales, aprobación rápida">Monthly plans, quick approval</span></p>
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM15 3v4h4"/><path d="M9 12h6M9 16h4"/></svg>
+      <p><strong data-en="Free estimate" data-es="Estimado gratis">Free estimate</strong>
+         <span data-en="No deposit to book the visit" data-es="Sin depósito para agendar la visita">No deposit to book the visit</span></p>
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 9v12h6v-6h6v6h6V9z"/></svg>
+      <p><strong data-en="Family owned and run" data-es="Negocio familiar">Family owned and run</strong>
+         <span data-en="The owner is on your job" data-es="El dueño está en tu trabajo">The owner is on your job</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHAT WE BUILD ══ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow" data-en="What we build" data-es="Lo que hacemos">What we build</p>
+      <h2 data-en="Concrete first, and everything around it" data-es="Primero el concreto, y todo lo que lo rodea">Concrete first, and everything around it</h2>
+      <p class="section-sub"
+         data-en="Most of our work is flatwork: driveways, patios and slabs. We also pour the footings and build the block walls, stone veneer, steel gates and shade that finish the yard, so it comes from one crew and it matches."
+         data-es="La mayoría de nuestro trabajo es concreto plano: entradas, patios y losas. También colamos las zapatas y construimos los muros de block, el enchape de piedra, los portones de acero y la sombra que terminan el patio, todo con un solo equipo y a juego.">
+         Most of our work is flatwork: driveways, patios and slabs. We also pour the footings and build the block walls, stone veneer, steel gates and shade that finish the yard, so it comes from one crew and it matches.</p>
+    </div>
+
+    <ul class="svc-grid">
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21 9 3M19 21 15 3M8 9h8M7 15h10"/></svg>
+        <h3 data-en="Driveways &amp; approaches" data-es="Entradas y accesos">Driveways &amp; approaches</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 12h18M9 6v12M15 6v12"/></svg>
+        <h3 data-en="Patios &amp; slabs" data-es="Patios y losas">Patios &amp; slabs</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg>
+        <h3 data-en="Stamped &amp; decorative concrete" data-es="Concreto estampado y decorativo">Stamped &amp; decorative concrete</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18v4H3zM6 12v9M18 12v9M6 21h12M4 8 12 3l8 5"/></svg>
+        <h3 data-en="Foundations &amp; footings" data-es="Cimientos y zapatas">Foundations &amp; footings</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4v-4h4v-4h4V8h4M4 20v-4h4v-4h4V8h4V4"/></svg>
+        <h3 data-en="Sidewalks &amp; steps" data-es="Banquetas y escalones">Sidewalks &amp; steps</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 10h18M3 14h18M8 6v4M16 10v4M8 14v4"/></svg>
+        <h3 data-en="Block &amp; retaining walls" data-es="Muros de block y de contención">Block &amp; retaining walls</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h6l2 3-2 3H4zM14 5h6v6h-6l-2-3zM4 13h6l2 3-2 3H4zM14 13h6v6h-6l-2-3z"/></svg>
+        <h3 data-en="Stone veneer" data-es="Enchape de piedra">Stone veneer</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V6h8v15M13 21V6h8v15M3 21h18M6 10h2M6 14h2M16 10h2M16 14h2"/></svg>
+        <h3 data-en="Custom steel &amp; wood gates" data-es="Portones de acero y madera">Custom steel &amp; wood gates</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18M4 8v11M20 8v11M3 8l2-3h14l2 3M8 12h8M8 15h8"/></svg>
+        <h3 data-en="Louvered pergolas &amp; shade" data-es="Pérgolas y sombra">Louvered pergolas &amp; shade</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20c2 0 2-9 8-9s6 9 8 9M4 20h16M12 11V4M12 4c-2 0-3 1-3 2M12 4c2 0 3 1 3 2"/></svg>
+        <h3 data-en="Artificial turf" data-es="Pasto artificial">Artificial turf</h3>
+      </li>
+      <li class="svc">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M6 6l1 14h10l1-14M9 6V4h6v2M10 10v6M14 10v6"/></svg>
+        <h3 data-en="Tear-out &amp; haul-off" data-es="Demolición y acarreo">Tear-out &amp; haul-off</h3>
+      </li>
+    </ul>
+    <p class="svc-note" data-en="Gray, broom, stamped or colored, matched to your house. Ask about a border, a band or a brick inlay."
+                        data-es="Gris, escobillado, estampado o con color, a juego con tu casa. Pregunta por un borde, una banda o un adoquín de ladrillo.">Gray, broom, stamped or colored, matched to your house. Ask about a border, a band or a brick inlay.</p>
+  </div>
+</section>
+
+<!-- ══ WORK GALLERY ══ -->
+<section class="section section-light" id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow" data-en="Recent work" data-es="Trabajos recientes">Recent work</p>
+      <h2 data-en="Jobs we have finished" data-es="Trabajos que hemos terminado">Jobs we have finished</h2>
+    </div>
+    <div class="carousel" id="workCarousel" aria-roledescription="carousel" aria-label="Recent Concrete Diaz jobs">
+      <div class="carousel-viewport" id="carouselViewport">
+        <ul class="carousel-track" id="carouselTrack">
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g1-stamped.jpg" width="1400" height="681" style="object-position:center 82%"
+                 alt="Stamped flagstone concrete walkway with a red brick circle inlay next to artificial turf">
+            <span class="slide-cap" data-en="Stamped walkway with a brick inlay" data-es="Andador estampado con adoquín de ladrillo">Stamped walkway with a brick inlay</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g3-turf-walkway.jpg" width="1400" height="811" style="object-position:center 78%"
+                 alt="Concrete border and paver stepping stone path around a new artificial turf lawn">
+            <span class="slide-cap" data-en="Concrete borders and a paver path around new turf" data-es="Bordes de concreto y andador de losetas alrededor de pasto nuevo">Concrete borders and a paver path around new turf</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g2-patio-pergola.jpg" width="1400" height="653" style="object-position:center 60%"
+                 alt="Stamped slate pattern concrete patio under a black louvered aluminum pergola">
+            <span class="slide-cap" data-en="Stamped patio under a louvered pergola" data-es="Patio estampado bajo una pérgola de persianas">Stamped patio under a louvered pergola</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g4-gate.jpg" width="1080" height="1080" style="object-position:center 62%"
+                 alt="Black horizontal louver double gate mounted on stone veneer posts over a concrete pad">
+            <span class="slide-cap" data-en="Louver gate on stone veneer posts" data-es="Portón de persianas sobre postes de piedra">Louver gate on stone veneer posts</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g5-privacy-wall.jpg" width="998" height="574"
+                 alt="Black woven steel privacy wall over a gravel yard with the Franklin Mountains behind">
+            <span class="slide-cap" data-en="Woven steel privacy wall" data-es="Muro de privacidad de acero tejido">Woven steel privacy wall</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g6-wood-gate.jpg" width="1080" height="1080" style="object-position:center 55%"
+                 alt="Cedar stained horizontal wood double gate framed in black steel">
+            <span class="slide-cap" data-en="Cedar and steel double gate" data-es="Portón doble de cedro y acero">Cedar and steel double gate</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g7-pergola.jpg" width="1400" height="609"
+                 alt="Black louvered aluminum pergola over a stone veneer wall in an El Paso backyard">
+            <span class="slide-cap" data-en="Louvered pergola over a stone veneer wall" data-es="Pérgola de persianas sobre muro de piedra">Louvered pergola over a stone veneer wall</span>
+          </li>
+          <li class="slide" aria-roledescription="slide">
+            <img src="assets/g8-stone-wall.jpg" width="1020" height="765"
+                 alt="Stone veneer boundary wall going up with rust colored steel fence posts set in concrete">
+            <span class="slide-cap" data-en="Stone veneer wall going up on set posts" data-es="Muro de piedra en construcción sobre postes fijados">Stone veneer wall going up on set posts</span>
+          </li>
+        </ul>
+      </div>
+
+      <button class="carousel-btn carousel-prev" type="button" aria-label="Previous job" aria-controls="carouselTrack">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7"/></svg>
+      </button>
+      <button class="carousel-btn carousel-next" type="button" aria-label="Next job" aria-controls="carouselTrack">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+
+      <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose a job"></div>
+    </div>
+    <p class="gallery-note" data-en="Recent Concrete Diaz jobs around El Paso and Chaparral. Ask to see work near you."
+                            data-es="Trabajos recientes de Concrete Diaz por El Paso y Chaparral. Pide ver trabajo cerca de ti.">Recent Concrete Diaz jobs around El Paso and Chaparral. Ask to see work near you.</p>
+  </div>
+</section>
+
+<!-- ══ HOW WE POUR ══ -->
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="section-head section-head-center">
+      <p class="eyebrow" data-en="How we pour" data-es="Cómo trabajamos">How we pour</p>
+      <h2 data-en="The part you don't see is why it lasts" data-es="Lo que no se ve es la razón de que dure">The part you don't see is why it lasts</h2>
+      <p class="section-sub"
+         data-en="A cheap pour skips the ground work and cracks in a year. Here is what goes under a Concrete Diaz slab, and why the free estimate is worth the call."
+         data-es="Un colado barato se salta la preparación del terreno y se agrieta en un año. Esto es lo que va debajo de una losa de Concrete Diaz, y por qué vale la pena pedir el estimado gratis.">
+         A cheap pour skips the ground work and cracks in a year. Here is what goes under a Concrete Diaz slab, and why the free estimate is worth the call.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <h3 data-en="Form and grade" data-es="Formar y nivelar">Form and grade</h3>
+        <p data-en="We set the forms to a real slope so water runs off the slab, not toward your house."
+           data-es="Colocamos las formas con una pendiente real para que el agua escurra de la losa, no hacia tu casa.">We set the forms to a real slope so water runs off the slab, not toward your house.</p>
+      </div>
+      <div class="step">
+        <h3 data-en="Compact the base" data-es="Compactar la base">Compact the base</h3>
+        <p data-en="Road base is laid and tamped so the slab sits on something solid, not loose dirt."
+           data-es="Se coloca y compacta base de camino para que la losa descanse sobre algo firme, no tierra suelta.">Road base is laid and tamped so the slab sits on something solid, not loose dirt.</p>
+      </div>
+      <div class="step">
+        <h3 data-en="Steel in every slab" data-es="Acero en cada losa">Steel in every slab</h3>
+        <p data-en="Rebar or mesh runs through the whole pour so it holds together when the ground moves."
+           data-es="Varilla o malla recorre todo el colado para que se mantenga unido cuando el terreno se mueve.">Rebar or mesh runs through the whole pour so it holds together when the ground moves.</p>
+      </div>
+      <div class="step">
+        <h3 data-en="Pour, screed and finish" data-es="Colar, reglear y acabar">Pour, screed and finish</h3>
+        <p data-en="Broom, trowel, stamp or color, done in one visit with the right cure time."
+           data-es="Escobillado, llana, estampado o color, en una sola visita y con el tiempo de curado correcto.">Broom, trowel, stamp or color, done in one visit with the right cure time.</p>
+      </div>
+      <div class="step">
+        <h3 data-en="Seal and clean up" data-es="Sellar y limpiar">Seal and clean up</h3>
+        <p data-en="Decorative work gets sealed, control joints get cut, and the site leaves clean."
+           data-es="El trabajo decorativo se sella, se cortan las juntas de control y el lugar queda limpio.">Decorative work gets sealed, control joints get cut, and the site leaves clean.</p>
+      </div>
+    </div>
+
+    <div class="steps-cta">
+      <a class="btn btn-primary" href="#quote" data-en="Book the free estimate" data-es="Agenda el estimado gratis">Book the free estimate</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FINANCING ══ -->
+<section class="section section-dark" id="financing">
+  <div class="wrap">
+    <div class="section-head section-head-center section-head-light">
+      <p class="eyebrow" data-en="Financing" data-es="Financiamiento">Financing</p>
+      <h2 data-en="Pour now, pay monthly" data-es="Cuela ahora, paga por mes">Pour now, pay monthly</h2>
+      <p class="section-sub"
+         data-en="Driveways, full patios and block walls can be financed. Slide to see a rough monthly payment."
+         data-es="Entradas, patios completos y muros de block se pueden financiar. Desliza para ver un pago mensual aproximado.">
+         Driveways, full patios and block walls can be financed. Slide to see a rough monthly payment.</p>
+    </div>
+
+    <div class="calc">
+      <div class="calc-control">
+        <div class="calc-row">
+          <label for="calcAmount" data-en="Project cost" data-es="Costo del proyecto">Project cost</label>
+          <output id="calcAmount-out" for="calcAmount">$6,000</output>
+        </div>
+        <input type="range" id="calcAmount" min="2000" max="20000" step="250" value="6000"
+               aria-describedby="calcDisclaimer">
+        <div class="calc-scale"><span>$2,000</span><span>$20,000</span></div>
+
+        <div class="calc-row calc-row-term">
+          <label for="calcTerm" data-en="Term" data-es="Plazo">Term</label>
+          <div class="term-opts" id="calcTerm" role="radiogroup" aria-label="Financing term">
+            <button type="button" class="term-opt" data-months="12" role="radio" aria-checked="false">12 <span data-en="mo" data-es="meses">mo</span></button>
+            <button type="button" class="term-opt is-on" data-months="24" role="radio" aria-checked="true">24 <span data-en="mo" data-es="meses">mo</span></button>
+            <button type="button" class="term-opt" data-months="36" role="radio" aria-checked="false">36 <span data-en="mo" data-es="meses">mo</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="calc-result">
+        <p class="calc-label" data-en="Estimated monthly payment" data-es="Pago mensual estimado">Estimated monthly payment</p>
+        <p class="calc-figure"><span class="calc-cur">$</span><span id="calcMonthly">282</span><span class="calc-per" data-en="/mo" data-es="/mes">/mo</span></p>
+        <p class="calc-meta">
+          <span id="calcApr">11.99% APR</span> ·
+          <span id="calcTermLabel">24 <span data-en="months" data-es="meses">months</span></span>
+        </p>
+        <a class="btn btn-primary btn-block" href="#quote"
+           data-en="Ask about financing" data-es="Pregunta por el financiamiento">Ask about financing</a>
+      </div>
+    </div>
+
+    <p class="disclaimer" id="calcDisclaimer"
+       data-en="Illustrative estimate only. Actual rate, term and payment are set by the lender and depend on credit approval. Not an offer of credit."
+       data-es="Estimado ilustrativo únicamente. La tasa, el plazo y el pago los determina el prestamista y dependen de la aprobación de crédito. No es una oferta de crédito.">
+       Illustrative estimate only. Actual rate, term and payment are set by the lender and depend on credit approval. Not an offer of credit.</p>
+  </div>
+</section>
+
+<!-- ══ SERVICE AREA ══ -->
+<section class="section section-light" id="area">
+  <div class="wrap">
+    <div class="section-head section-head-center">
+      <p class="eyebrow" data-en="Service area" data-es="Área de servicio">Service area</p>
+      <h2 data-en="El Paso and southern New Mexico"
+          data-es="El Paso y el sur de Nuevo México">El Paso and southern New Mexico</h2>
+    </div>
+
+    <div class="area-grid">
+      <div class="area-photo">
+        <img src="assets/g2-patio-pergola.jpg" width="1400" height="653" style="object-position:center 55%"
+             alt="Finished stamped concrete patio and turf strip on an El Paso area backyard">
+      </div>
+
+      <div class="area-panel">
+        <p class="area-lead"
+           data-en="Based in Chaparral, working across the El Paso metro and over the New Mexico line. Free estimate, usually within a few days."
+           data-es="Con base en Chaparral, trabajando por toda el área de El Paso y del otro lado de la línea de Nuevo México. Estimado gratis, normalmente en unos días.">
+           Based in Chaparral, working across the El Paso metro and over the New Mexico line. Free estimate, usually within a few days.</p>
+
+        <h3 class="area-sub" data-en="Areas we cover" data-es="Zonas que cubrimos">Areas we cover</h3>
+        <ul class="area-checks">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>West Side</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Upper Valley</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Northeast</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>East Side</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Lower Valley</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Horizon City</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Chaparral, NM</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Sunland Park &amp; Anthony, NM</li>
+        </ul>
+
+        <a class="btn btn-primary btn-block area-cta" href="#quote"
+           data-en="Request an estimate" data-es="Solicitar un estimado">Request an estimate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FINAL CTA ══ -->
+<section class="finalcta">
+  <div class="wrap finalcta-inner">
+    <h2 data-en="Send us a photo of the spot."
+        data-es="Mándanos una foto del lugar.">Send us a photo of the spot.</h2>
+    <p data-en="Free estimate, no deposit, and a straight answer on what it takes and what it costs."
+       data-es="Estimado gratis, sin depósito y una respuesta honesta de lo que se necesita y lo que cuesta.">Free estimate, no deposit, and a straight answer on what it takes and what it costs.</p>
+    <div class="cta-row cta-row-center">
+      <a class="btn btn-primary btn-lg" href="#quote" data-en="Get my free quote" data-es="Pedir mi cotización gratis">Get my free quote</a>
+      <a class="btn btn-ghost btn-lg" href="sms:+19152423657" data-en="Text (915) 242-3657" data-es="Texto al (915) 242-3657">Text (915) 242-3657</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <span class="footer-logo">
+        <img src="assets/logo-lockup.png" width="872" height="600" alt="Concrete Diaz">
+      </span>
+      <p class="foot-note">
+        <span data-en="Concrete, stamped patios &amp; custom gates · El Paso, TX &amp; southern NM" data-es="Concreto, patios estampados y portones a la medida · El Paso, TX y el sur de NM">Concrete, stamped patios &amp; custom gates · El Paso, TX &amp; southern NM</span><br>
+        <span data-en="BBB Accredited · family owned · free estimates · financing available" data-es="Acreditado por BBB · negocio familiar · estimados gratis · financiamiento disponible">BBB Accredited · family owned · free estimates · financing available</span>
+      </p>
+    </div>
+
+    <div>
+      <h4 data-en="Contact" data-es="Contacto">Contact</h4>
+      <p>
+        <a href="tel:+19152423657">Call (915) 242-3657</a><br>
+        <a href="sms:+19152423657" data-en="Text (915) 242-3657" data-es="Texto (915) 242-3657">Text (915) 242-3657</a><br>
+        <a href="mailto:concretediaz.ep@gmail.com">concretediaz.ep@gmail.com</a><br>
+        <span data-en="Chaparral, NM · serving El Paso" data-es="Chaparral, NM · atendemos El Paso">Chaparral, NM · serving El Paso</span>
+      </p>
+    </div>
+
+    <div>
+      <h4 data-en="See more work" data-es="Ver más trabajos">See more work</h4>
+      <p>
+        <a href="https://www.facebook.com/concrete.diaz.ep/" target="_blank" rel="noopener">Facebook</a><br>
+        <a href="https://www.instagram.com/concrete.diaz" target="_blank" rel="noopener">Instagram</a>
+      </p>
+    </div>
+
+    <div>
+      <h4 data-en="Hours" data-es="Horario">Hours</h4>
+      <p><span data-en="Open by appointment" data-es="Abierto con cita">Open by appointment</span><br>
+         <span data-en="Free estimates" data-es="Estimados gratis">Free estimates</span><br>
+         <span class="demo-inline" data-en="(confirm hours)" data-es="(confirmar horario)">(confirm hours)</span></p>
+    </div>
+  </div>
+
+  <div class="wrap footer-base">
+    <p>© <span id="yr">2026</span> Concrete Diaz · El Paso, TX &amp; southern NM</p>
+    <p class="spec-note" data-en="Concept site prepared for Concrete Diaz. Not an official page."
+                         data-es="Sitio conceptual preparado para Concrete Diaz. No es una página oficial.">Concept site prepared for Concrete Diaz. Not an official page.</p>
+  </div>
+</footer>
+
+<!-- ══ STICKY MOBILE BAR ══ -->
+<div class="mobile-bar">
+  <a class="btn btn-ghost mb-btn" href="#quote" data-en="Quote" data-es="Cotización">Quote</a>
+  <a class="btn btn-ghost mb-btn" href="sms:+19152423657" data-en="Text" data-es="Texto">Text</a>
+  <a class="btn btn-primary mb-btn" href="tel:+19152423657">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2Z"/></svg>
+    <span data-en="Call" data-es="Llamar">Call</span>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
